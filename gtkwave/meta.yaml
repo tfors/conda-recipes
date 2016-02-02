@@ -1,19 +1,16 @@
 package:
   name: gtkwave
-  version: 3.3.61 [not osx]
-  version: 3.3.58 [osx]
+  version: 3.3.68
 
 source:
-  fn: gtkwave-3.3.61.tar.gz [not osx]
-  fn: gtkwave-3.3.58.tar.gz [osx]
-  url: http://gtkwave.sourceforge.net/gtkwave-3.3.61.tar.gz   # [not osx]
-  url: http://gtkwave.sourceforge.net/gtkwave-3.3.58.tar.gz   # [osx]
+  fn: gtkwave-3.3.68.tar.gz
+  url: http://gtkwave.sourceforge.net/gtkwave-3.3.68.tar.gz
 
   patches:
     - nosplash.patch   # bypass annoying splash screen
 
 build:
-  number: 1
+  number: 0
 
 # Requires gtk2 and pkg-config from some other platform package manager
 
