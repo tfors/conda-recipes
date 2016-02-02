@@ -1,0 +1,10 @@
+--- src/splash.c	2012-08-15 19:33:19.000000000 -0500
++++ src/splash.c	2014-07-15 14:42:44.472221198 -0500
+@@ -737,6 +737,7 @@
+ 
+ void splash_create(void)
+ {
++	return;
+ if((!GLOBALS->splash_disable)&&(!GLOBALS->splash_splash_c_1))
+         {
+         GtkWidget *splash_table;
