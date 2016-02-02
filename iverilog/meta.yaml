@@ -8,10 +8,6 @@ source:
 
 build:
   number: 0
-  binary_relocation: true
-  binary_has_prefix_files:
-    - bin/iverilog
-    - bin/vvp
 
 about:
   home: http://iverilog.icarus.com/home
