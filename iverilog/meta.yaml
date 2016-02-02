@@ -1,13 +1,13 @@
 package:
   name: iverilog
-  version: 0.9.7
+  version: 10.0
 
 source:
   git_url: https://github.com/steveicarus/iverilog.git
-  git_tag: v0_9_7
+  git_tag: v10_0
 
 build:
-  number: 1
+  number: 0
   binary_relocation: true
   binary_has_prefix_files:
     - bin/iverilog
