@@ -1,0 +1,14 @@
+package:
+  name: dpic
+  version: 2016.01.12
+
+source:
+  fn: dpic.tar.gz
+  url: https://ece.uwaterloo.ca/~aplevich/dpic/dpic.tar.gz
+
+build:
+  number: 0
+
+about:
+  home: https://ece.uwaterloo.ca/~aplevich/dpic/
+  license: BSD
