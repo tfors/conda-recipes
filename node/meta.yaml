@@ -1,0 +1,18 @@
+package:
+  name: node
+  version: 4.3.1
+
+source:
+  fn: node-v4.3.1.tar.gz
+  url: https://nodejs.org/dist/v4.3.1/node-v4.3.1.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - python
+
+about:
+  home: https://nodejs.org/
+  license: MIT
