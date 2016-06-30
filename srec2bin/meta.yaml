@@ -1,10 +1,10 @@
 package:
   name: srec2bin
-  version: 0.1
+  version: 0.2
 
 source:
   git_url: https://github.com/tfors/srec2bin.git
-  git_tag: v0.1
+  git_tag: v0.2
 
 build:
   number: 0
