@@ -1,5 +1,6 @@
 #!/bin/bash
 
 make
-cp srec2bin $PREFIX/srec2bin
+mkdir -p $PREFIX/bin
+cp srec2bin $PREFIX/bin/srec2bin
 
