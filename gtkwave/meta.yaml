@@ -1,10 +1,10 @@
 package:
   name: gtkwave
-  version: 3.3.72
+  version: 3.3.87
 
 source:
-  fn: gtkwave-3.3.72.tar.gz
-  url: http://gtkwave.sourceforge.net/gtkwave-3.3.72.tar.gz
+  fn: gtkwave-3.3.87.tar.gz
+  url: http://gtkwave.sourceforge.net/gtkwave-3.3.87.tar.gz
 
   patches:
     - nosplash.patch   # bypass annoying splash screen

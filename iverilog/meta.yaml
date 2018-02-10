@@ -1,5 +1,5 @@
-{% set version = "10.1" %}
-{% set git_tag = "v10_1" %}
+{% set version = "10.2" %}
+{% set git_tag = "v10_2" %}
 
 package:
   name: iverilog
